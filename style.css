@@ -309,6 +309,36 @@ header .header-bottom .btn {}
     font-size: 125%;
 }
 
+/* DESIGNED FOR DEVELOPERS */
+/* DESIGNED FOR DEVELOPERS */
+/* DESIGNED FOR DEVELOPERS */
+
+#designed-for-developers {
+    background-color: #F3F5F9;
+}
+
+#designed-for-developers h1 {
+    margin: 100px 0 20px;
+}
+
+#designed-for-developers p:nth-child(2) {
+    font-size: 135%;
+    margin-bottom: 60px;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+#designed-for-developers img {
+    max-width: 80%;
+    display: inline-block;
+}
+
+.kubernetes {
+    margin: 35px 0 35px;
+}
+
+
+
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
@@ -375,6 +405,18 @@ header .header-bottom .btn {}
     #jumbo-text h1 {
         font-size: 350%;
     }
+
+    #designed-for-developers p:nth-child(2) {
+        font-size: 135%;
+        margin-bottom: 60px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    }
+
+
 }
 
 @media screen and (max-width: 1048px)
