@@ -257,15 +257,76 @@ header .header-bottom .btn {}
     color: #0629C3;
 }
 
+/* DEPLOY AND SCALE */
+/* DEPLOY AND SCALE */
+/* DEPLOY AND SCALE */
+
+#deploy-and-scale #deploy {
+    border-left: 3px solid blue;
+    z-index: 99;
+}
+
+#deploy-and-scale #scale {
+    border-left: 3px solid rgba(0,0,0,0.3);
+    margin-top: -19.5px;
+    z-index: 0;
+    padding-top: -60%;
+}
+
+#deploy-and-scale #scale span:hover {
+    color: black;
+    opacity: 1;
+    cursor: pointer;
+}
+
+#deploy-and-scale blockquote p {
+    margin: 0px 0 -8px;
+    display: block;
+}
+
+#deploy-and-scale span {
+    margin: 20px 0;
+    display: block;
+    color: grey;
+}
+
+#deploy-and-scale span:first-child {
+    margin: 10px 0 15px;
+    display: block;
+}
+
+#deploy-and-scale i {
+    color: #0069FF;
+    margin: 30px 0 15px;
+}
+
+#deploy-and-scale h3 {
+    margin: 0 0 15px;
+    font-weight: bold;
+}
+
+#deploy-and-scale .col-sm-4 p {
+    font-size: 125%;
+}
+
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
     #my-jumbo .col-sm-offset-1 {
         margin-top: 0px;
     }
+
+    .col-xxs-12 {
+        width: 100%;
+    }
 }
+
+@media screen and (min-width: 481px) {
+}
+
+
 
 @media screen and (max-width: 768px) {
 
