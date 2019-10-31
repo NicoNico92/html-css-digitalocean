@@ -343,6 +343,8 @@ header .header-bottom .btn {}
 }
 
 /* BUILT FOR BUSINESS */
+/* BUILT FOR BUSINESS */
+/* BUILT FOR BUSINESS */
 
 #built-for-business {
     padding-bottom: 80px;
@@ -364,6 +366,72 @@ header .header-bottom .btn {}
     height: 320px;
 }
 
+/* DATA CENTER */
+/* DATA CENTER */
+/* DATA CENTER */
+
+#data-center {
+    background-image: url("https://www.hotelanel.com/wp-content/uploads/2019/04/dark-blue-background-4k_ekeftjj9ml__F0000.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* TEAMS LOVE OCEAN */
+/* TEAMS LOVE OCEAN */
+/* TEAMS LOVE OCEAN */
+
+#teams-love-ocean {
+    background-color: #F3F5F9;
+    padding-bottom: 80px;
+}
+
+#teams-love-ocean p a {
+    text-decoration: underline;
+}
+
+#teams-love-ocean .col-xs-12 p:nth-child(2) {
+    margin: 0 22%;
+}
+
+#teams-love-ocean .col-sm-1 {
+    padding-top: 9%;
+}
+
+#teams-love-ocean .col-sm-1:first-child i {
+    float: right;
+}
+
+#teams-love-ocean .col-sm-1:last-child i {
+    float: left;
+}
+
+#teams-love-ocean .col-sm-6 p:nth-child(2) {
+    font-size: 125%;
+}
+
+#teams-love-ocean img {
+    width: 25%;
+    padding: 30px 0;
+}
+
+#teams-love-ocean img {
+    width: 25%;
+    padding: 30px 0;
+}
+
+#teams-love-ocean .col-md-6 {
+    background-color: white;
+}
+
+#teams-love-ocean small {
+    margin-top: -50px;
+}
+
+
+
+
+
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
@@ -375,6 +443,10 @@ header .header-bottom .btn {}
 
     .col-xxs-12 {
         width: 100%;
+    }
+
+    table {
+        font-size:80%;
     }
 }
 
@@ -395,6 +467,13 @@ header .header-bottom .btn {}
         margin: 0 5px;
     }
 
+    #built-for-business .col-sm-3 {
+        height: 250px;
+    }
+
+    #teams-love-ocean .col-sm-1 {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -423,6 +502,12 @@ header .header-bottom .btn {}
         display: inline-block;
         width: 49.5%;
         margin: 0;
+}
+
+.col-med-12 {
+    display: inline-block;
+    width: 99.5%;
+    margin: 0;
 }
 }
 
