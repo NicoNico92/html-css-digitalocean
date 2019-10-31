@@ -506,7 +506,7 @@ footer {
 
 footer .col-xs-12 {
     padding: 30px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(154, 164, 184, 0.4);
 }
 
 footer li {
@@ -548,8 +548,15 @@ footer p {
     opacity: 0.5;
 }
 
-footer i:not(.fa-digital-ocean) {
+footer li a i {
+    color: white;
     opacity: 0.5;
+    font-size: 140%;
+}
+
+footer li a i:hover {
+    opacity: 1;
+    font-size: 140%;
 }
 
 /* MEDIA QUERIES */
