@@ -333,11 +333,36 @@ header .header-bottom .btn {}
     display: inline-block;
 }
 
-.kubernetes {
-    margin: 35px 0 35px;
+#designed-for-developers p:nth-child(4) {
+    margin: 40px 0;
 }
 
+#designed-for-developers i {
+    padding-bottom: 120px;
+    color: hsl(215, 100%, 50%);
+}
 
+/* BUILT FOR BUSINESS */
+
+#built-for-business {
+    padding-bottom: 80px;
+}
+
+#built-for-business i, a {
+    color: hsl(215, 100%, 50%);
+}
+
+#built-for-business p, a {
+    font-size: 125%;
+}
+
+#built-for-business .col-xs-12 {
+    padding: 80px 0 50px;
+}
+
+#built-for-business .col-sm-3 {
+    height: 320px;
+}
 
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
@@ -353,11 +378,6 @@ header .header-bottom .btn {}
     }
 }
 
-@media screen and (min-width: 481px) {
-}
-
-
-
 @media screen and (max-width: 768px) {
 
 
@@ -371,9 +391,13 @@ header .header-bottom .btn {}
         margin-top: 10px;
     }
 
+    .row {
+        margin: 0 5px;
+    }
+
 }
 
-@media screen and (max-width: 992px) and {
+@media screen and (max-width: 992px) {
     #my-jumbo #jumbo-text .left {
         font-size: 10%;
      }
@@ -382,9 +406,6 @@ header .header-bottom .btn {}
 
 
 @media screen and (max-width: 992px) and (min-width: 769px) {
-
-
-
   #my-jumbo .btn-default i {
       position: absolute;
       left: 5px;
@@ -395,6 +416,14 @@ header .header-bottom .btn {}
       padding: 4% 27%;
   }
 
+}
+
+@media screen and (min-width: 481px) and (max-width: 960px) {
+.col-med-6 {
+        display: inline-block;
+        width: 49.5%;
+        margin: 0;
+}
 }
 
 @media screen and (max-width: 1048px) {
@@ -412,11 +441,7 @@ header .header-bottom .btn {}
         margin-left: 0;
         margin-right: 0;
     }
-
-
-    }
-
-
 }
+
 
 @media screen and (max-width: 1048px)
