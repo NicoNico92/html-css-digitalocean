@@ -10,6 +10,10 @@ a, a:hover {
     text-decoration: none;
 }
 
+ul {
+    padding: 0;
+}
+
 .btn-default {
     font-weight: bold;
     font-size: 120%;
@@ -350,11 +354,11 @@ header .header-bottom .btn {}
     padding-bottom: 80px;
 }
 
-#built-for-business i, a {
+#built-for-business i, #built-for-business a {
     color: hsl(215, 100%, 50%);
 }
 
-#built-for-business p, a {
+#built-for-business p, #built-for-business a {
     font-size: 125%;
 }
 
@@ -458,6 +462,58 @@ header .header-bottom .btn {}
     opacity: 0.7;
 }
 
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+footer {
+    background-color: #010E28;
+    padding: 100px 0;
+    color: white;
+}
+
+footer .col-xs-12 {
+    padding: 30px;
+    border-bottom: 1px solid white;
+}
+
+footer li {
+        list-style: none;
+}
+
+footer a li {
+    color: white;
+    opacity: 0.5;
+}
+
+footer .col-xs-6 li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    padding-top: 10px;
+}
+
+footer .fa-digital-ocean {
+    color: #0080FF;
+}
+
+footer .col-xs-6 {
+    padding-top: 40px;
+    position: relative;
+}
+
+footer p {
+    display: inline-block;
+    position: absolute;
+    left: 85px;
+    top: 60px;
+    opacity: 0.5;
+}
+
+footer i:not(.fa-digital-ocean) {
+    opacity: 0.5;
+}
+
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
@@ -469,6 +525,11 @@ header .header-bottom .btn {}
 
     .col-xxs-12 {
         width: 100%;
+    }
+
+    .col-xxs-6 {
+        width: 48%;
+        display: inline-block;
     }
 
     table {
