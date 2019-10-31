@@ -379,6 +379,36 @@ header .header-bottom .btn {}
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    padding-bottom: 100px;
+}
+
+#data-center h1 {
+    margin: 0 20%;
+    padding: 120px 0 60px;
+}
+
+#data-center thead th {
+    font-weight: 200;
+}
+
+#data-center td, #data-center th {
+    border-bottom: 1px solid rgba(154, 164, 184, 0.4);
+}
+
+#data-center tr:last-child td {
+    border-bottom: 0
+}
+
+#data-center th:nth-child(2), #data-center td:nth-child(2) {
+    color: #99A3B7;
+}
+
+#data-center a {
+    color: #00d7d2;
+}
+
+#data-center a:hover {
+    color: #0069ff;
 }
 
 /* TEAMS LOVE OCEAN */
@@ -428,12 +458,14 @@ header .header-bottom .btn {}
     background-color: white;
 }
 
-#teams-love-ocean small {
-    margin-top: -50px;
-}
-
 #teams-love-ocean .col-xs-12:last-child {
     padding-top: 30px;
+}
+
+#teams-love-ocean .col-xxs-12 {
+}
+
+#teams-love-ocean .col-md-6 {
 }
 
 /* GET-STARTED */
@@ -479,11 +511,17 @@ footer .col-xs-12 {
 
 footer li {
         list-style: none;
+        margin: 6px 0;
+        font-size: 105%;
 }
 
 footer a li {
     color: white;
     opacity: 0.5;
+}
+
+footer a li:hover {
+    opacity: 1;
 }
 
 footer .col-xs-6 li {
