@@ -97,7 +97,7 @@ header .header-bottom .btn {}
 
 #my-jumbo {
     height: 800px;
-    background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
 }
 
 #my-jumbo #hidden-jumbo {
@@ -383,7 +383,7 @@ header .header-bottom .btn {}
 
 #teams-love-ocean {
     background-color: #F3F5F9;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
 }
 
 #teams-love-ocean p a {
@@ -428,9 +428,35 @@ header .header-bottom .btn {}
     margin-top: -50px;
 }
 
+#teams-love-ocean .col-xs-12:last-child {
+    padding-top: 30px;
+}
 
+/* GET-STARTED */
+/* GET-STARTED */
+/* GET-STARTED */
 
+#get-started {
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+    padding: 45px 0 40px;
+}
 
+#get-started  {
+    color: white;
+}
+
+#get-started h1 {
+    padding-bottom: 15px;
+}
+
+#get-started a {
+    color: #0069FF;
+    padding: 13px 50px;
+}
+
+#get-started a:hover {
+    opacity: 0.7;
+}
 
 /* MEDIA QUERIES */
 /* MEDIA QUERIES */
